@@ -1,16 +1,26 @@
-# React + Vite
+YouTube Clone:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a YouTube Clone built using React JS. I created this project to practice building real-world applications and improve my skills in React, API integration, and routing.
+The app displays trending videos using the YouTube Data API and allows users to watch videos, view details, and browse content by category.
 
-Currently, two official plugins are available:
+Tech Stack:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React JS
+JavaScript
+CSS
+React Router
+YouTube Data API
 
-## React Compiler
+Features:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse trending videos
+Watch videos inside the app
+View likes, comments, and descriptions
+Category-based video suggestions
+Responsive design
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+RUN:
+cd youtube-clone
+npm install
+npm install react-router-dom
+npm run dev
