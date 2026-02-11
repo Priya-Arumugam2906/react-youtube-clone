@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './PlayVideo.css'
-import video1 from '../../assets/Video.mp4'
 import like from '../../assets/like.png'
 import dislike from '../../assets/dislike.png'
 import share from '../../assets/share.png'
@@ -47,7 +46,7 @@ const PlayVideo = () => {
 
   return (
     <div className='play-video'>
-        {/*<video src={video1} controls autoPlay muted></video>*/}
+      
        <iframe width="996" height="560" src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`} frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen></iframe>
